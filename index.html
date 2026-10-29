@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Степан</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/scanlines.css">
+  <link rel="stylesheet" href="css/tabs.css">
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <canvas id="star-canvas"></canvas>
+
+  <main class="container">
+    <div class="ascii-art">
+      <pre id="ascii-output">
+  .-""""""-.
+ /          \
+|            |
+|,  .-.  .-.  ,|
+| )(_o/  \o_)( |
+|/     /\     \|
+(_     ^^     _)
+ \__|IIIIII|__/
+  | \IIIIII/ |
+  \          /
+   `--------`
+      </pre>
+    </div>
+
+    <div class="content">
+      <header>
+        <h1>Степан</h1>
+        <div class="lang-switch">
+          <span class="active-lang">ru</span> / <span>en</span>
+        </div>
+      </header>
+
+      <nav class="tabs">
+        <a href="#about" class="tab active">обо мне</a>
+        <a href="#guestbook" class="tab">гостевая</a>
+        <a href="#github" class="tab">github</a>
+        <a href="#setup" class="tab">сетап</a>
+        <span class="terminal-icon">&gt;_</span>
+      </nav>
+
+      <section id="about" class="tab-content active">
+        <p>привет! Меня звать Степан, мне на данный момент 12 лет, пишу коды, ввиде ddos. Знаю языки C++ , JavaScript и Python</p>
+        <br>
+        <p class="dim">
+          12 лет · начинающий разработчик<br>
+          <span class="live-clock"></span> · <span id="sleep-status">не сплю</span><br>
+          ♪ <span id="now-playing">Кино — Группа Крови</span> (последнее)
+        </p>
+        <br>
+        <div class="links">
+          <a href="#">Discord ↗</a>
+        </div>
+      </section>
+
+      <section id="guestbook" class="tab-content">
+        <p class="dim">можешь оставить что-нибудь, появится после того как я прочитаю</p>
+        <form id="guest-form">
+          <input type="text" id="guest-name" placeholder="имя (можно не писать)" autocomplete="off">
+          <textarea id="guest-message" placeholder="сообщение" required></textarea>
+          <button type="submit">отправить</button>
+        </form>
+        <div class="messages" id="messages-list">
+          <div class="msg">
+            <span class="msg-author">аноним</span> <span class="msg-date">25.10.26</span>
+            <p>Сколько стоил твой домен?</p>
+          </div>
+          <div class="msg">
+            <span class="msg-author">Георгий</span> <span class="msg-date">24.10.26</span>
+            <p>красивый сайт</p>
+          </div>
+          <div class="msg">
+            <span class="msg-author">Витя</span> <span class="msg-date">24.10.26</span>
+            <p>имба сайт</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="github" class="tab-content">
+        <div class="github-stats">
+          <div class="github-graph">
+            <div class="graph-grid">
+              <div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div>
+              <div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-3"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div>
+              <div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div>
+              <div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div>
+              <div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div>
+              <div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div>
+              <div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div>
+            </div>
+            <p class="dim">32 контрибуции за год <span class="right">@stepan ↗</span></p>
+          </div>
+          <table class="info-table">
+            <tr><td>REPOS</td><td>9</td></tr>
+            <tr><td>LANGS</td><td>python 90% css 5% html 4%</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="setup" class="tab-content">
+        <table class="info-table">
+          <tr><td>gpu</td><td>GeForce RTX 5090 laptop</td></tr>
+          <tr><td>ram</td><td>62 GiB</td></tr>
+          <tr><td>server</td><td>ubuntu vps nginx</td></tr>
+          <tr><td>player</td><td>innioasis y1 ipodos</td></tr>
+        </table>
+        <div class="stack">
+          <div class="stack-col">
+            <span class="dim">py</span>
+            <span class="dim">js</span>
+            <span class="dim">ts</span>
+          </div>
+          <div class="stack-col">
+            <span class="dim">cpp</span>
+            <span class="dim">rust</span>
+            <span class="dim">kt</span>
+          </div>
+          <div class="stack-col">
+            <span class="dim">c++</span>
+            <span class="dim">lua</span>
+            <span class="dim">lua</span>
+          </div>
+          <div class="stack-col">
+            <span class="dim">dc</span>
+            <span class="dim">linux</span>
+            <span class="dim">docker</span>
+          </div>
+          <div class="stack-col">
+            <span class="dim">pg</span>
+            <span class="dim">sqlite</span>
+            <span class="dim">redis</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>← webring →</span>
+    <span>200 просмотров</span>
+    <span>source</span>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/stars.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/guestbook.js"></script>
+</body>
+                                                                                                                                                                                                                                        </html>
