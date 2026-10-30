@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="css/tabs.css">
   <link rel="stylesheet" href="css/forms.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/cursor.css">
+  <link rel="stylesheet" href="css/glitch.css">
+  <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
   <canvas id="star-canvas"></canvas>
@@ -55,11 +58,26 @@
         <p class="dim">
           12 лет · начинающий разработчик<br>
           <span class="live-clock"></span> · <span id="sleep-status">не сплю</span><br>
-          ♪ <span id="now-playing">Кино — Группа Крови</span> (последнее)
+          ♪ <span id="now-playing">Sace, DJ Pointless — cold air</span> (последнее)
         </p>
         <br>
         <div class="links">
-          <a href="#">Discord ↗</a>
+          <a href="#">discord ↗</a>
+        </div>
+
+        <div class="terminal-block">
+          <div class="terminal-header">
+            <span>stepan@arch:~$</span>
+            <span class="terminal-close">×</span>
+          </div>
+          <div class="terminal-body" id="terminal-output">
+            <p>добро пожаловать в терминал</p>
+            <p>введи <span class="highlight">help</span> для списка команд</p>
+          </div>
+          <div class="terminal-input-line">
+            <span class="prompt">$</span>
+            <input type="text" id="terminal-input" autocomplete="off" spellcheck="false">
+          </div>
         </div>
       </section>
 
@@ -76,11 +94,11 @@
             <p>Сколько стоил твой домен?</p>
           </div>
           <div class="msg">
-            <span class="msg-author">Георгий</span> <span class="msg-date">24.10.26</span>
+            <span class="msg-author">аноним</span> <span class="msg-date">24.10.26</span>
             <p>красивый сайт</p>
           </div>
           <div class="msg">
-            <span class="msg-author">Витя</span> <span class="msg-date">24.10.26</span>
+            <span class="msg-author">МАКС</span> <span class="msg-date">24.10.26</span>
             <p>имба сайт</p>
           </div>
         </div>
@@ -98,7 +116,7 @@
               <div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div>
               <div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-2"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-0"></div><div class="graph-cell lvl-1"></div>
             </div>
-            <p class="dim">32 контрибуции за год <span class="right">@stepan ↗</span></p>
+            <p class="dim">252 контрибуции за год <span class="right">@stepan ↗</span></p>
           </div>
           <table class="info-table">
             <tr><td>REPOS</td><td>9</td></tr>
@@ -147,7 +165,7 @@
 
   <footer class="footer">
     <span>← webring →</span>
-    <span>200 просмотров</span>
+    <span>100 просмотров</span>
     <span>source</span>
   </footer>
 
@@ -157,5 +175,10 @@
   <script src="js/clock.js"></script>
   <script src="js/music.js"></script>
   <script src="js/guestbook.js"></script>
+  <script src="js/lang.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/glitch.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/matrix.js"></script>
 </body>
-                                                                                                                                                                                                                                        </html>
+                                                    </html>
