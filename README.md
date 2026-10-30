@@ -192,49 +192,6 @@ commands.mycommand = () => 'ответ на мою команду';
 
 ---
 
-🌍 Деплой
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-GitHub Pages
-
-1. Создай репозиторий
-2. Загрузи файлы
-3. Settings → Pages
-4. Выбери main и /root
-
-</td>
-<td width="33%" valign="top">
-
-Netlify
-
-1. Зайди на netlify.com/drop
-2. Перетащи папку site/
-3. Получи ссылку
-
-</td>
-<td width="33%" valign="top">
-
-Vercel
-
-1. Зайди на vercel.com
-2. Подключи GitHub
-3. Нажми Deploy
-
-</td>
-</tr>
-</table>
-
-🌐 Свой домен
-
-1. Купи домен на reg.ru или namecheap.
-2. В настройках DNS добавь A-запись или CNAME.
-3. Подожди 10–30 минут.
-
----
-
 ⚠️ Известные ограничения
 
 · Гостевая книга не сохраняет сообщения после перезагрузки — нужен бэкенд.
