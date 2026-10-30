@@ -235,11 +235,6 @@ https://github.com/The-Ray588
 </td>
 <td align="center" width="50%">
 
-karma.tg
-Проект
-
-https://img.shields.io/badge/site-fame.tg-a78bfa?style=flat-square&logo=googlechrome&logoColor=white
-
 </td>
 </tr>
 </table>
