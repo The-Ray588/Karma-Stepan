@@ -195,3 +195,32 @@ p {
 .footer span:hover {
   color: #a78bfa;
 }
+.karma-button {
+  margin-top: 20px;
+  opacity: 0.85;
+  transition: 0.2s;
+}
+
+.karma-button:hover {
+  opacity: 1;
+}
+
+.karma-button img {
+  image-rendering: pixelated;
+  border-radius: 2px;
+}
+
+.footer-dev {
+  color: #555;
+}
+
+.footer-dev a {
+  color: #a78bfa;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-dev a:hover {
+  text-decoration: underline;
+  color: #c4b5fd;
+}
