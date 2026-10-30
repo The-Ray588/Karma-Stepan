@@ -1,0 +1,86 @@
+.terminal-block {
+  margin-top: 25px;
+  border: 1px solid #27272a;
+  border-radius: 6px;
+  background: #0c0c0e;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+.terminal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  background: #18181b;
+  border-bottom: 1px solid #27272a;
+  color: #666;
+}
+
+.terminal-close {
+  cursor: pointer;
+  color: #666;
+  transition: 0.2s;
+}
+
+.terminal-close:hover {
+  color: #ff5555;
+}
+
+.terminal-body {
+  padding: 12px;
+  max-height: 180px;
+  overflow-y: auto;
+  color: #d4d4d8;
+  line-height: 1.5;
+}
+
+.terminal-body p {
+  margin-bottom: 4px;
+}
+
+.terminal-body .highlight {
+  color: #a78bfa;
+}
+
+.terminal-body .error {
+  color: #ff5555;
+}
+
+.terminal-body .success {
+  color: #50fa7b;
+}
+
+.terminal-input-line {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-top: 1px solid #27272a;
+  background: #09090b;
+}
+
+.terminal-input-line .prompt {
+  color: #a78bfa;
+  margin-right: 8px;
+}
+
+#terminal-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #d4d4d8;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+#matrix-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.06;
+  pointer-events: none;
+}
