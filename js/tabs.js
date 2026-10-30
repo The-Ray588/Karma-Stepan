@@ -31,16 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   switchTab(window.location.hash);
-
-  const langSwitch = document.querySelector('.lang-switch');
-  if (langSwitch) {
-    langSwitch.addEventListener('click', () => {
-      const spans = langSwitch.querySelectorAll('span');
-      spans.forEach(s => s.classList.remove('active-lang'));
-      const active = langSwitch.querySelector('.active-lang');
-      if (!active) {
-        spans[0].classList.add('active-lang');
-      }
-    });
-  }
 });
