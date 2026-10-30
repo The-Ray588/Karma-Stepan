@@ -1,88 +1,117 @@
 ```markdown
 <div align="center">
 
-# karma.tg
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=karma.tg;personal+terminal+site;made+by+TheRayDev" alt="Typing SVG" />
 
-**Персональный сайт-визитка в стиле хакерского терминала**
+<p>
+  <b>Персональный сайт-визитка в стиле хакерского терминала</b>
+</p>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/ru/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/ru/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/ru/docs/Web/JavaScript)
-[![Canvas](https://img.shields.io/badge/Canvas_API-000000?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/ru/docs/Web/API/Canvas_API)
-[![No Dependencies](https://img.shields.io/badge/dependencies-0-50fa7b?style=flat-square)](#)
-[![License](https://img.shields.io/badge/license-MIT-a78bfa?style=flat-square)](LICENSE)
+<p>
+  <a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
+</p>
 
-[![karma](https://fame.tg/buttons/karma.gif)](https://fame.tg)
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Canvas_API-000000?style=for-the-badge&logo=html5&logoColor=white" alt="Canvas">
+</p>
 
-<a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
+<p>
+  <img src="https://img.shields.io/badge/dependencies-0-50fa7b?style=flat-square" alt="dependencies">
+  <img src="https://img.shields.io/badge/license-MIT-a78bfa?style=flat-square" alt="license">
+  <img src="https://img.shields.io/badge/status-active-a78bfa?style=flat-square" alt="status">
+  <img src="https://img.shields.io/badge/made_by-TheRayDev-a78bfa?style=flat-square" alt="made by">
+</p>
 
-**Разработано:** [TheRayDev](https://github.com/TheRayDev)
+<p>
+  <a href="#-о-проекте">О проекте</a> •
+  <a href="#-возможности">Возможности</a> •
+  <a href="#-технологии">Технологии</a> •
+  <a href="#-структура">Структура</a> •
+  <a href="#-быстрый-старт">Быстрый старт</a> •
+  <a href="#-деплой">Деплой</a> •
+  <a href="#-авторы">Авторы</a>
+</p>
 
 </div>
 
 ---
 
-## 📖 Оглавление
-
-- [О проекте](#-о-проекте)
-- [Возможности](#-возможности)
-- [Технологии](#-технологии)
-- [Структура проекта](#-структура-проекта)
-- [Быстрый старт](#-быстрый-старт)
-- [Команды терминала](#-команды-терминала)
-- [Виджеты и кнопки](#-виджеты-и-кнопки)
-- [Кастомизация](#-кастомизация)
-- [Деплой](#-деплой)
-- [Известные ограничения](#-известные-ограничения)
-- [Roadmap](#-roadmap)
-- [Авторы](#-авторы)
-- [Лицензия](#-лицензия)
-
----
-
 ## 🚀 О проекте
 
-**karma.tg** — это минималистичный сайт-визитка, вдохновлённый эстетикой старых терминалов, хакерских консолей и ретро-интерфейсов. Здесь нет тяжёлых фреймворков и библиотек — только чистый HTML, CSS и JavaScript.
+> **karma.stepan** — минималистичный сайт-визитка, вдохновлённый эстетикой старых терминалов, хакерских консолей и ретро-интерфейсов.
 
-Сайт создан для того, чтобы рассказать о себе коротко и стильно: кто ты, что умеешь, чем занимаешься и как с тобой связаться.
+Здесь нет тяжёлых фреймворков и библиотек — только чистый **HTML**, **CSS** и **JavaScript**. Сайт создан для того, чтобы рассказать о себе коротко и стильно: кто ты, что умеешь, чем занимаешься и как с тобой связаться.
 
-**Главные принципы:**
+<table>
+<tr>
+<td width="50%">
 
-- ⚡ **Скорость** — ноль зависимостей, мгновенная загрузка
-- 🎨 **Стиль** — тёмная тема, фиолетовые акценты, ASCII-арт
-- 🧠 **Простота** — ванильный JS, легко разобраться и переделать
-- 📱 **Адаптивность** — нормально выглядит на телефоне
+### ⚡ Скорость
+Ноль зависимостей. Мгновенная загрузка. Никаких сборщиков и фреймворков.
+
+</td>
+<td width="50%">
+
+### 🎨 Стиль
+Тёмная тема, фиолетовые акценты, ASCII-арт, сканлайны и матрица.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🧠 Простота
+Ванильный JS. Легко разобраться, переделать и расширить под себя.
+
+</td>
+<td width="50%">
+
+### 📱 Адаптивность
+Нормально выглядит на телефоне и планшете. Flexbox и Grid.
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## ✨ Возможности
 
-| Функция | Описание |
-|---|---|
-| 🌌 **Звёздный фон** | Мерцающие звёзды на `<canvas>` |
-| 🟣 **Матричный дождь** | Полупрозрачные символы катаканы на фоне |
-| 🖥️ **Сканлайны** | Эффект старого монитора поверх всего сайта |
-| 📑 **Вкладки без перезагрузки** | Навигация через `#about`, `#guestbook` и т.д. |
-| ⏰ **Живые часы** | Реальное время с часовым поясом |
-| 😴 **Статус сна** | Меняется автоматически по времени суток |
-| 🎵 **Сейчас слушаю** | Случайный трек из плейлиста при загрузке |
-| 💻 **Интерактивный терминал** | Команды `help`, `whoami`, `skills` и другие |
-| 📝 **Гостевая книга** | Форма для сообщений (без сохранения после перезагрузки) |
-| 🌐 **Переключение языка** | RU / EN прямо на сайте |
-| 💀 **Глитч-эффект** | На имени при наведении курсора |
-| 🖱️ **Кастомный курсор** | Фиолетовая стрелка в стиле терминала |
-| 🔊 **Звук клика** | Лёгкий щелчок при нажатии на кнопки |
-| 📜 **Кастомный скроллбар** | Тонкая фиолетовая полоса |
+| | Функция | Описание |
+|---|---|---|
+| 🌌 | **Звёздный фон** | Мерцающие звёзды на `<canvas>` |
+| 🟣 | **Матричный дождь** | Полупрозрачные символы катаканы на фоне |
+| 🖥️ | **Сканлайны** | Эффект старого монитора поверх сайта |
+| 📑 | **Вкладки** | Переключение без перезагрузки через `#about`, `#guestbook` |
+| ⏰ | **Живые часы** | Реальное время с часовым поясом |
+| 😴 | **Статус сна** | Меняется автоматически по времени суток |
+| 🎵 | **Сейчас слушаю** | Случайный трек из плейлиста при загрузке |
+| 💻 | **Терминал** | Команды `help`, `whoami`, `skills`, `date`, `ls`, `clear` |
+| 📝 | **Гостевая книга** | Форма для сообщений (без сохранения после перезагрузки) |
+| 🌐 | **Переключение языка** | RU / EN прямо на сайте |
+| 💀 | **Глитч** | Эффект на имени при наведении |
+| 🖱️ | **Кастомный курсор** | Фиолетовая стрелка в стиле терминала |
+| 🔊 | **Звук клика** | Лёгкий щелчок при нажатии на кнопки |
+| 📜 | **Скроллбар** | Тонкая фиолетовая полоса |
 
 ---
 
 ## 🛠 Технологии
 
-- **HTML5** — семантическая разметка
-- **CSS3** — Flexbox, Grid, анимации, `backdrop-filter`, кастомный курсор
-- **Vanilla JavaScript** — без фреймворков и библиотек
-- **Canvas API** — фон со звёздами и матрица
-- **JetBrains Mono** — моноширинный шрифт через Google Fonts
+<div align="center">
+
+| Технология | Что используется |
+|---|---|
+| **HTML5** | Семантическая разметка, SVG-favicon |
+| **CSS3** | Flexbox, Grid, анимации, `backdrop-filter`, кастомный курсор |
+| **JavaScript** | Ванильный JS без фреймворков и библиотек |
+| **Canvas API** | Фон со звёздами и матрица |
+| **Google Fonts** | JetBrains Mono |
+
+</div>
 
 ---
 
@@ -93,7 +122,6 @@ site/
 ├── index.html
 ├── README.md
 ├── LICENSE
-├── favicon.ico
 ├── css/
 │   ├── style.css
 │   ├── scanlines.css
@@ -124,99 +152,52 @@ site/
 
 ---
 
-⚡ Быстрый старт
-
-Вариант 1 — VS Code + Live Server
-
-1. Установи расширение Live Server.
-2. Открой папку site/ в VS Code.
-3. Правой кнопкой по index.html → Open with Live Server.
-
-Вариант 2 — Python
-
-```bash
-cd site
-python -m http.server 8000
-```
-
-Открой: http://localhost:8000
-
-Вариант 3 — Node.js
-
-```bash
-cd site
-npx serve
-```
-
-Вариант 4 — просто открыть файл
-
-Двойной клик по index.html. Работает, но некоторые браузеры блокируют загрузку шрифтов и звуков через file://.
-
----
-
 💻 Команды терминала
 
 Терминал доступен во вкладке «обо мне». Введи команду и нажми Enter.
 
 Команда Что делает
-help Показывает список всех команд
+help Список всех команд
 whoami Рассказывает, кто ты
 skills Показывает навыки
 contact Контакты для связи
 date Текущая дата и время
-ls Список файлов в «директории»
+ls Список файлов
 clear Очищает экран терминала
 
-Чтобы добавить свою команду, открой js/terminal.js и добавь запись в объект commands.
+💡 Как добавить свою команду: открой js/terminal.js и добавь запись в объект commands.
 
 ---
 
 🧩 Виджеты и кнопки
 
-В README (и на самом сайте) можно использовать кнопку-виджет:
-
 ```html
 <a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
 ```
 
-Она отображается так:
+Отображается так:
+
+<div align="center">
 
 <a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
 
-Параметры:
+</div>
 
-· href — ссылка, куда ведёт кнопка
-· src — путь к GIF-изображению
-· width="88" и height="31" — стандартный размер веб-кнопки (88×31 пикселей)
-· alt="karma" — альтернативный текст, если картинка не загрузится
-
-Такую кнопку можно вставить:
-
-· в README.md на GitHub
-· на свой сайт в блок «ссылки»
-· в подпись на форуме или в Telegram-канале
+Параметр Значение
+href Ссылка, куда ведёт кнопка
+src Путь к GIF-изображению
+width / height Стандартный размер веб-кнопки — 88×31
+alt Альтернативный текст, если картинка не загрузится
 
 ---
 
-🎨 Кастомизация
 
-Текст «обо мне»
-
-Открой index.html, найди <section id="about"> и измени текст в первом <p>.
-
-Список треков
-
-Открой js/music.js, измени массив tracks:
-
-```javascript
-const tracks = [
-  'Sace, DJ Pointless — cold air',
-  'Твой трек — название',
-  'Ещё один трек'
-];
 ```
 
-Команды терминала
+</details>
+
+<details>
+<summary><b>Команды терминала</b></summary>
 
 Открой js/terminal.js, добавь команду:
 
@@ -224,9 +205,10 @@ const tracks = [
 commands.mycommand = () => 'ответ на мою команду';
 ```
 
-Цвета
+</details>
 
-Все основные цвета — в css/style.css:
+<details>
+<summary><b>Цвета</b></summary>
 
 Переменная Значение Где используется
 Фон #09090b body
@@ -234,50 +216,70 @@ commands.mycommand = () => 'ответ на мою команду';
 Текст #d4d4d8 основной текст
 Приглушённый #666 подписи, даты
 
-ASCII-арт
+Все цвета — в css/style.css.
+
+</details>
+
+<details>
+<summary><b>ASCII-арт</b></summary>
 
 Открой index.html, найди <pre id="ascii-output"> и замени содержимое. Важно сохранить отступы — иначе арт «поплывёт».
+
+</details>
 
 ---
 
 🌍 Деплой
 
+<table>
+<tr>
+<td width="33%" valign="top">
+
 GitHub Pages
 
-1. Создай репозиторий на GitHub.
-2. Загрузи все файлы.
-3. Перейди в Settings → Pages.
-4. Выбери ветку main и папку /root.
-5. Сохрани. Сайт будет доступен по адресу https://username.github.io/repo/.
+1. Создай репозиторий
+2. Загрузи файлы
+3. Settings → Pages
+4. Выбери main и /root
+
+</td>
+<td width="33%" valign="top">
 
 Netlify
 
-1. Зайди на https://app.netlify.com/drop
-2. Перетащи папку site/ в окно браузера.
-3. Получи ссылку.
+1. Зайди на netlify.com/drop
+2. Перетащи папку site/
+3. Получи ссылку
+
+</td>
+<td width="33%" valign="top">
 
 Vercel
 
-1. Зайди на https://vercel.com
-2. Подключи GitHub-репозиторий.
-3. Нажми Deploy.
+1. Зайди на vercel.com
+2. Подключи GitHub
+3. Нажми Deploy
 
-Свой домен
+</td>
+</tr>
+</table>
+
+🌐 Свой домен
 
 1. Купи домен на reg.ru или namecheap.
-2. В настройках DNS добавь A-запись или CNAME, который даёт хостинг.
+2. В настройках DNS добавь A-запись или CNAME.
 3. Подожди 10–30 минут.
 
 ---
 
 ⚠️ Известные ограничения
 
-· Гостевая книга не сохраняет сообщения после перезагрузки страницы — нужен бэкенд.
-· GitHub-график нарисован вручную, а не подтягивается через API.
-· Звук клика не работает, если файла assets/sounds/click.mp3 нет.
-· Матрица и звёзды нагружают CPU на слабых устройствах — можно отключить, удалив <script src="js/matrix.js"> из index.html.
-· Кастомный курсор не работает на мобильных устройствах (там его нет).
-· Глитч-эффект работает только при наведении — на тач-экранах его не видно.
+· Гостевая книга не сохраняет сообщения после перезагрузки — нужен бэкенд.
+· GitHub-график нарисован вручную, а не через API.
+· Звук клика не работает, если нет файла assets/sounds/click.mp3.
+· Матрица и звёзды нагружают CPU на слабых устройствах.
+· Кастомный курсор не работает на мобильных.
+· Глитч-эффект виден только при наведении — на тач-экранах его нет.
 
 ---
 
@@ -292,21 +294,35 @@ Vercel
 ☑ Звёздный фон и матрица
 ☐ Бэкенд для гостевой книги (Firebase или Python)
 ☐ Реальная интеграция с GitHub API
-☐ Светлая тема (по кнопке)
+☐ Светлая тема
 ☐ Страница 404
-☐ Open Graph для красивых превью в Telegram
-☐ PWA (установка на телефон как приложение)
+☐ Open Graph для Telegram-превью
+☐ PWA
 
 ---
 
 👨‍💻 Авторы
 
-Разработчик сайта: TheRayDev
+<table>
+<tr>
+<td align="center" width="50%">
 
-· GitHub: @TheRayDev
-· Проект: karma.tg
+TheRayDev
+Разработчик сайта
 
-Сайт создан как персональная визитка в стиле хакерского терминала.
+https://img.shields.io/badge/GitHub-TheRayDev-a78bfa?style=flat-square&logo=github
+
+</td>
+<td align="center" width="50%">
+
+karma.tg
+Проект
+
+https://img.shields.io/badge/site-fame.tg-a78bfa?style=flat-square&logo=googlechrome&logoColor=white
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -320,39 +336,21 @@ Vercel
 
 <div align="center">
 
-Сделано с 🖤 и фиолетовым цветом #a78bfa
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=400&lines=made+with+%F0%9F%96%A4+and+%23a78bfa;thanks+for+visiting" alt="Typing SVG" />
 
-Разработано TheRayDev
+
+
+
 
 <a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
+
+
+
+
+
+Разработано TheRayDev
 
 </div>
 ```
 
 ---
-
-LICENSE (если ещё нет)
-
-```text
-MIT License
-
-Copyright (c) 2026 TheRayDev
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
