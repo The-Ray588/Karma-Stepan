@@ -1,41 +1,4 @@
 ```markdown
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=karma.tg;personal+terminal+site;made+by+TheRayDev" alt="Typing SVG" />
-
-<p>
-  <b>Персональный сайт-визитка в стиле хакерского терминала</b>
-</p>
-
-<p>
-  <a href="https://fame.tg"><img src="https://fame.tg/buttons/karma.gif" width="88" height="31" alt="karma"></a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Canvas_API-000000?style=for-the-badge&logo=html5&logoColor=white" alt="Canvas">
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/dependencies-0-50fa7b?style=flat-square" alt="dependencies">
-  <img src="https://img.shields.io/badge/license-MIT-a78bfa?style=flat-square" alt="license">
-  <img src="https://img.shields.io/badge/status-active-a78bfa?style=flat-square" alt="status">
-  <img src="https://img.shields.io/badge/made_by-TheRayDev-a78bfa?style=flat-square" alt="made by">
-</p>
-
-<p>
-  <a href="#-о-проекте">О проекте</a> •
-  <a href="#-возможности">Возможности</a> •
-  <a href="#-технологии">Технологии</a> •
-  <a href="#-структура">Структура</a> •
-  <a href="#-быстрый-старт">Быстрый старт</a> •
-  <a href="#-деплой">Деплой</a> •
-  <a href="#-авторы">Авторы</a>
-</p>
-
-</div>
 
 ---
 
@@ -310,7 +273,7 @@ Vercel
 TheRayDev
 Разработчик сайта
 
-https://img.shields.io/badge/GitHub-TheRayDev-a78bfa?style=flat-square&logo=github
+https://github.com/The-Ray588
 
 </td>
 <td align="center" width="50%">
